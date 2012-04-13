@@ -1,0 +1,10 @@
+/* TEAM */
+  Author: Kuba Lasecki
+  Contact: kuabalasecki [at] gmail.pl
+  From:Poznan, Poland
+
+/* SITE */
+  Last update:2012/04/13
+  Language:English
+  Doctype:HTML5
+  IDE: Sublime Text

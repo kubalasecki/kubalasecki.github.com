@@ -1,0 +1,59 @@
+/* adding bebas to all heading elements by default*/
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'bebas-neue';}
+
+/* customising selection */
+::selection{background:#333; color:#fff}
+::-moz-selection{background:#333; color:#fff}
+
+/* mixins */
+
+@mixin gradient_background($begin, $end){
+  // background image and background gradient!
+  // background: url(/images/bg.png) no-repeat 0 0,-webkit-gradient(linear, left top, right bottom, from($begin), to($end));
+  background: -webkit-gradient(linear, left top, right bottom, from($begin), to($end));
+  background: -moz-linear-gradient(-45deg,  $begin,  $end);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$begin', endColorstr='$end');
+}
+
+/* temp */
+
+body{
+  @include gradient_background(#ADF0F1, #FFFCB2);
+  width:100%;
+  height:100%;
+  background-attachment: fixed;
+}
+.main{
+  height: 100%;
+}
+
+.you_have_to_wait{
+  width: 900px;
+  margin: auto auto;
+  padding-top: 25%
+}
+h6, .temp_text{
+  background: white;
+  padding: 10px;
+}
+.temp_text{
+  width: 510px;
+  margin-top: 10px;
+}
+
+h6{
+  width: 190px;
+}
+
+a{
+  color: #282828;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 2px;
+  &:hover{
+    color: white;
+    background: #282828;
+    text-decoration:none;
+  };
+}
