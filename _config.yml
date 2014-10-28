@@ -1,0 +1,16 @@
+
+url: http://lasica.co
+title: kubalasecki
+email: kubalasecki@gmail.com
+description: > # "Bla Bla Bla"
+
+markdown: kramdown
+permalink: pretty
+
+social:
+  - title: coderwall
+    url: https://coderwall.com/kubalasecki
+  - title: github
+    url: https://github.com/kubalasecki
+  - title: linkedin
+    url: https://pl.linkedin.com/pub/kuba-łasecki/4b/254/216/

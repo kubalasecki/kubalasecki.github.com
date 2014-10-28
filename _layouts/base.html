@@ -1,20 +1,12 @@
 <!DOCTYPE html>
-<html lang='en'>
-  <head>
-    <meta charset='utf-8'>
-    <link href='css/reset_base.css' rel='stylesheet'>
-    <link href='css/stylesheet.css' rel='stylesheet'>
-    <link href='humans.txt' rel='author'>
-    <script src='http://use.typekit.com/mjs0jem.js'></script>
-    <script src='js/jquery-1.7.2.min.js'></script>
-    <script src='js/base.js'></script>
-    <title>{{ page.title }}</title>
-  </head>
+<html>
+  {% include head.html %}
+
   <body>
-    <header></header>
-    <section class='main'>
-      {{ content }}
-    </section>
-    <footer></footer>
+    {% include header.html %}
+    {% include page_content.html %}
+    {% include contact.html %}
+    {% include footer.html %}
+    {% include js.html %}
   </body>
 </html>
