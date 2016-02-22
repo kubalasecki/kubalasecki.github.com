@@ -14,7 +14,7 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a href="mailto:kubalasecki@gmail.com" target="_top">Contact</a>
+                    <a href="mailto:kuba@lasica.co" target="_top">Contact</a>
                 </li>
             </ul>
         </div>
@@ -35,6 +35,15 @@
                     <h3>{{ page.subTitle }}</h3>
                     <hr class="intro-divider">
                     <ul class="list-inline intro-social-buttons">
+                        <li><div id="SkypeButton_Chat_kubica1988">
+                          <script type="text/javascript">
+                            Skype.ui({
+                              "name": "chat",
+                              "element": "SkypeButton_Chat_kubica1988",
+                              "participants": ["kubica1988"]
+                            });
+                          </script>
+                        </div></li>
                         {% for social in site.social %}
                         <li>
                             <a href="{{ social.url }}" class="btn btn-default btn-lg"><i class="fa fa-{{ social.title }} fa-fw"></i> <span class="network-name">{{ social.title }}</span></a>

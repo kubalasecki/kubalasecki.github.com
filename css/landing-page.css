@@ -164,3 +164,19 @@ footer {
 p.copyright {
     margin: 15px 0 0;
 }
+p#SkypeButton_Chat_kubica1988_paraElement {
+  font-size: 18px !important;
+}
+
+p#SkypeButton_Chat_kubica1988_paraElement > a > span {
+  color: #000000;
+}
+
+p#SkypeButton_Chat_kubica1988_paraElement > a > i {
+  color: #000000;
+}
+
+p#SkypeButton_Chat_kubica1988_paraElement > a > img {
+  vertical-align: -2px !important;
+  margin: 0 !important;
+}
